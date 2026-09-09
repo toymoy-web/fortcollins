@@ -144,6 +144,11 @@ footer .logo-img{height:34px}
 .crumb a{color:var(--teal-d);text-decoration:none}
 .pagehead h1{font-size:clamp(24px,3.5vw,34px);color:var(--navy);margin-bottom:10px}
 .h2-sub{font-size:clamp(22px,3vw,30px);margin-bottom:14px}
+.callout-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 26px;position:relative;overflow:hidden}
+.callout-card:before{content:"";position:absolute;top:0;left:0;bottom:0;width:5px;background:linear-gradient(180deg,var(--coral),var(--teal))}
+.callout-card ul{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.callout-card li{position:relative;padding-left:22px;color:var(--gray);font-size:14.5px}
+.callout-card li:before{content:"\2713";position:absolute;left:0;top:1px;color:var(--teal-d);font-weight:800}
 .pagehead p{color:var(--gray);font-size:15.5px;max-width:560px}
 .chips{display:flex;gap:8px;margin-top:14px;flex-wrap:wrap}
 .chip{background:#fff;border:1px solid var(--line);padding:6px 12px;border-radius:100px;font-size:12.5px;font-weight:600;color:var(--navy)}
@@ -188,6 +193,9 @@ footer{background:#fff;border-top:1px solid var(--line);padding:44px 0;font-size
 footer .wrap{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:28px}
 footer h3{color:var(--navy);font-family:'Plus Jakarta Sans';font-size:15px;margin-bottom:12px}
 footer a{color:var(--gray);text-decoration:none;display:block;margin-bottom:7px;font-size:13.5px}
+.social-row{display:flex;gap:10px;margin-top:16px}
+.social-row a{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;background:var(--soft);color:var(--teal-d);margin-bottom:0}
+.social-row a:hover{background:var(--teal);color:#fff}
 footer a:hover{color:var(--teal-d)}
 footer p{color:var(--gray);font-size:13.5px}
 
